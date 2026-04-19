@@ -1,5 +1,5 @@
-# Terraform AWS VPC Project
-
+# Terraform AWS VPC Project 
+HEAD
 ## 📌 Description
 This project creates AWS infrastructure using Terraform:
 - VPC
@@ -49,3 +49,6 @@ This project provisions a complete AWS network infrastructure using Terraform mo
 
 ## 👩‍💻 Author
 Nandini
+
+This project creates VPC, subnets, IGW, NAT Gateway using Terraform.
+ 9e7dd10 (Added README)
