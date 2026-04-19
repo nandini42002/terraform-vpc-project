@@ -1,0 +1,16 @@
+# Terraform files
+.terraform/
+*.tfstate
+*.tfstate.backup
+tfplan
+
+# Sensitive variables
+terraform.tfvars
+*.tfvars
+
+# AWS credentials (VERY IMPORTANT)
+.aws/
+*.pem
+
+# OS files
+.DS_Store
