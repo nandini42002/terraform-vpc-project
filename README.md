@@ -1,6 +1,6 @@
 # Terraform AWS VPC Project 
 HEAD
-## 📌 Description
+# Description
 This project creates AWS infrastructure using Terraform:
 - VPC
 - Public & Private Subnets
@@ -8,19 +8,19 @@ This project creates AWS infrastructure using Terraform:
 - NAT Gateway
 - Route Tables
 
-## 🛠️ Tools Used
+#Tools Used
 - Terraform
 - AWS
 
-## 🚀 How to Use
+#How to Use
 1. terraform init
 2. terraform plan
 3. terraform apply
 
-## 📷 Architecture
+#Architecture
 This project provisions a complete AWS network infrastructure using Terraform modules.
 
-### 🏗️ Components:
+#Components:
 - VPC (172.32.0.0/16)
 - Public Subnet (172.32.10.0/24 - ap-south-1a)
 - Private Subnet (172.32.20.0/24 - ap-south-1b)
@@ -29,7 +29,7 @@ This project provisions a complete AWS network infrastructure using Terraform mo
 - Public Route Table → IGW
 - Private Route Table → NAT Gateway
 
-### 🔁 Traffic Flow:
+#raffic Flow:
 - Public Subnet → Internet via Internet Gateway
 - Private Subnet → Internet via NAT Gateway
                    🌐 Internet
@@ -47,7 +47,7 @@ This project provisions a complete AWS network infrastructure using Terraform mo
         |   172.32.20.0/24         |
         -----------------------------
 
-## 👩‍💻 Author
+#Author
 Nandini
 
 This project creates VPC, subnets, IGW, NAT Gateway using Terraform.
